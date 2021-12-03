@@ -1,0 +1,86 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  border: 3px solid black;
+  margin-top: 36px;
+}
+
+.row-title{
+  width: 45%;
+}
+
+.row-author {
+  width: 25%
+}
+
+.row-pages, .row-status, .row-delete {
+  width: 10%
+}
+
+th, td {
+  padding: 10px;
+}
+
+td{
+  text-align: center;
+}
+
+#add-button{
+  padding: 10px;  
+}
+
+.modal-bg{
+  height:100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content{
+  width: 250px;
+  height: 350px;  
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+input, select{
+  margin: 15px auto;
+}
+
+select{
+  width: 70px;
+}
+
+input[type="submit"]{
+  width: 100px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 8px;
+  transform: rotate(45deg);
+}
+
+.status-button, .delete-button{
+  width: 55px;
+  height: 40px;
+}
